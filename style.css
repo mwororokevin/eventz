@@ -1,0 +1,108 @@
+/*!
+Theme Name: eventZ
+Theme URI: http://underscores.me/
+Author: mwororokevin.com
+Author URI: http://mwororokevin.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: eventz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+eventZ is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+.entry-title{
+	display: none;
+}
+/* 
+*
+*FOOTER
+*
+*/
+.site-footer{
+	padding: 25px 0;
+	color: blue;
+}
+
+footer{
+	background-color: #009A3E;
+	min-height: 100px;
+}
+
+.footer-nav { 
+	display: block;
+	width:960px;
+}
+
+.footer-nav ul { 
+	display: inline;
+	float: left;
+}
+
+.footer-nav li {
+	list-style-type: none; 
+	display: inline; 
+	font-size: 12px; 
+	font-size: 16px;
+} 
+
+.footer-nav li a {
+	color: wheat;
+	line-height: 10px;
+	text-decoration: none;
+	font-weight: normal;
+	border-right: thin solid rgb(228, 193, 193);
+	padding: 10px 7px 10px 7px;
+}
+
+.footer-nav li a:hover, .theme-info a:hover { 
+	text-decoration: underline;
+	color: white;
+} 
+
+.footer-nav li:last-child > a {
+	border-right: none;
+} /* remove pipe from last item */
+
+.theme-info{
+	float: left;
+	padding: 10px 7px 10px 3px;	
+	font-size: 16px;
+}
+
+.theme-info a{
+	color: wheat;
+	text-decoration: none;
+	font-weight: normal;
+}
