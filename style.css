@@ -13,50 +13,42 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-eventZ is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
---------------------------------------------------------------*/
+
+:root{
+	--lmgreen: #009a3e;
+}
 
 .entry-title{
 	display: none;
 }
+
+
+/* 
+*
+*HEADER
+*
+*/
+
+header{
+	border-bottom-color: #009A3E;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
 /* 
 *
 *FOOTER
 *
 */
+
 .site-footer{
 	padding: 25px 0;
-	color: blue;
+	color: #aaaaaa;
 }
 
 footer{
-	background-color: #009A3E;
+	background-color: #222222;
 	min-height: 100px;
 }
 
@@ -67,13 +59,12 @@ footer{
 
 .footer-nav ul { 
 	display: inline;
-	float: left;
+	text-align: left;
 }
 
 .footer-nav li {
 	list-style-type: none; 
 	display: inline; 
-	font-size: 12px; 
 	font-size: 16px;
 } 
 
@@ -82,27 +73,77 @@ footer{
 	line-height: 10px;
 	text-decoration: none;
 	font-weight: normal;
-	border-right: thin solid rgb(228, 193, 193);
+	/* border-right: thin solid rgb(228, 193, 193); */
 	padding: 10px 7px 10px 7px;
 }
 
 .footer-nav li a:hover, .theme-info a:hover { 
-	text-decoration: underline;
-	color: white;
+	color: #009a3e;
+	text-decoration: none;
 } 
 
 .footer-nav li:last-child > a {
 	border-right: none;
 } /* remove pipe from last item */
 
+.menu-footer-menu-container{
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.theme-author-info{
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
 .theme-info{
-	float: left;
 	padding: 10px 7px 10px 3px;	
 	font-size: 16px;
+	text-align: left;
+	text-align: center;
 }
 
 .theme-info a{
 	color: wheat;
 	text-decoration: none;
 	font-weight: normal;
+}
+
+/* 
+*
+* Contact Form
+*
+*/
+
+.wpforms-title{
+    text-align: center;
+	color: #009A3E;
+	font-weight: 800;
+	font-family: 'Mali', cursive;
+}
+
+.contact-us{
+	padding: 150px;
+	background-color: #009a3e;
+}
+
+.contact-us label{
+	font-family: 'Mali', cursive;
+	color: #009a3e;
+}
+
+
+
+/* 
+*
+* Map
+*
+*/
+
+.map-css{
+	padding: 15px 0;
 }
