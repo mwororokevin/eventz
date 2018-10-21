@@ -16,7 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 :root{
-	--lmgreen: #009a3e;
+	--lmgreen: #39B54A;
 }
 
 .entry-title{
@@ -31,7 +31,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 header{
-	border-bottom-color: #009A3E;
+	border-bottom-color: #39B54A;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 }
@@ -78,7 +78,7 @@ footer{
 }
 
 .footer-nav li a:hover, .theme-info a:hover { 
-	color: #009a3e;
+	color: #39B54A;
 	text-decoration: none;
 } 
 
@@ -113,6 +113,14 @@ footer{
 	font-weight: normal;
 }
 
+/* #footer-co-name{
+	color: #39B54A;
+} */
+
+footer span{
+	color: #39B54A;
+}
+
 /* 
 *
 * Contact Form
@@ -121,19 +129,19 @@ footer{
 
 .wpforms-title{
     text-align: center;
-	color: #009A3E;
+	color: #39B54A;
 	font-weight: 800;
 	font-family: 'Mali', cursive;
 }
 
 .contact-us{
 	padding: 150px;
-	background-color: #009a3e;
+	background-color: #39B54A;
 }
 
 .contact-us label{
 	font-family: 'Mali', cursive;
-	color: #009a3e;
+	color: #39B54A;
 }
 
 
@@ -146,4 +154,14 @@ footer{
 
 .map-css{
 	padding: 15px 0;
+}
+
+/* 
+*
+* Testimonial Slider
+*
+*/
+
+.testimonial-slider{
+	margin-bottom: 15px;
 }

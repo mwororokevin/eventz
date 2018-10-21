@@ -34,7 +34,11 @@
 							<?php
 							echo("&copy ");
 							echo date("Y");
-							echo(" - Light Madam Ltd Kenya. All Rights Reserved.");
+							echo(" - ");
+							// echo<span class='footer-co-name'>;
+							// echo( "Light Madam Ltd Kenya");
+							// echo(</span>);
+							echo(" Light Madam Ltd Kenya. All Rights Reserved.");
 							?>
 					</div>
 				</div>	
@@ -44,7 +48,7 @@
 					<div class="theme-author-info">
 						<?php
 							/* translators: 1: Theme name, 2: Theme author. */
-							printf( esc_html__( ' Theme: %1$s Designed & Developed by %2$s', 'eventz' ), 'eventz', '<a href="http://mwororokevin.com" target="_blank">Kevin Mwororo</a>' );
+							printf( esc_html__( ' Theme: %1$s Designed & Developed by %2$s', 'eventz' ), 'eventz', '<a href="http://mwororokevin.com" target="_blank">mwororokevin.com</a>' );
 						?>
 					</div>
 				</div>
@@ -53,9 +57,6 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
- <!-- © 2018 - jaykiarie.com. All Rights Reserved. Designed & Developed by James Kiarie
- Theme: eventz by mwororokevin.com -->
- 
 <?php wp_footer(); ?>
 
 </body>

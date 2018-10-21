@@ -36,16 +36,16 @@
 					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 					<?php
 				endif;
-				$daktari_description = get_bloginfo( 'description', 'display' );
-				if ( $daktari_description || is_customize_preview() ) :
+				$lightmadam_description = get_bloginfo( 'description', 'display' );
+				if ( $lightmadam_description || is_customize_preview() ) :
 					?>
-					<p class="site-description"><?php echo $daktari_description; /* WPCS: xss ok. */ ?></p>
+					<p class="site-description"><?php echo $lightmadam_description; /* WPCS: xss ok. */ ?></p>
 				<?php endif; ?>
 			</div><!-- .site-branding -->
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigataion">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<?php
+			<!-- <?php
 				wp_nav_menu([
 					'menu'							=>	'primary',
 					'theme_location'				=>	'primary',
@@ -58,8 +58,9 @@
 					'fallback_cb'					=>	'bs4navwalker::fallback',
 					'walker'						=>	new bs4navwalker()
 				]);
-			?>
+			?> -->
+			<?php wp_nav_menu( array( 'eventz' => 'secondary' )); ?>
 		</nav>
 	</header>
 
-	<div id="content" class="site-content container">
+	<div id="content" class="site-content container-fluid">
