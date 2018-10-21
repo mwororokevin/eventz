@@ -45,7 +45,7 @@
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigataion">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<!-- <?php
+			<?php
 				wp_nav_menu([
 					'menu'							=>	'primary',
 					'theme_location'				=>	'primary',
@@ -58,8 +58,8 @@
 					'fallback_cb'					=>	'bs4navwalker::fallback',
 					'walker'						=>	new bs4navwalker()
 				]);
-			?> -->
-			<?php wp_nav_menu( array( 'eventz' => 'secondary' )); ?>
+			?>
+			
 		</nav>
 	</header>
 
